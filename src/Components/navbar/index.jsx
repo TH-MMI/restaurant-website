@@ -45,7 +45,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={scrolled ? "flex justify-between items-center bg-slate-100  h-14 z-10 px-8 fixed w-full top-0 md:px-8 md:justify-around md:h-16 duration-200" : "flex justify-between items-center  bg-white h-14 z-10 px-8 fixed w-full top-0 md:px-8 md:justify-around md:h-20 duration-200"} >
+    <nav className={scrolled ? "flex justify-between items-center bg-slate-100  h-14 z-10 px-8 fixed w-full top-0 md:px-8 md:justify-around md:h-16 duration-200" : "flex justify-between items-center  bg-transparent h-14 z-10 px-8 fixed w-full top-0 md:px-8 md:justify-around md:h-20 duration-200"} >
       <div>
         <h1 className="text-2xl font-bold text-emerald-500">LOGO</h1>
       </div>

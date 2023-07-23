@@ -26,12 +26,12 @@ const Hotsales = () => {
             //     ))} className="rounded-md bg-gray-300 w-60 absolute bottom-7 h-12 hover:w-64 text-orange-600 duration-300 hover:text-white hover:bg-orange-500" >ADD TO CART  <i className="fa-solid fa-cart-shopping"></i></button>
             // </div>
             
-              <article class="relative flex flex-col overflow-hidden rounded-lg border w-72">
+              <article class="relative flex flex-col overflow-hidden rounded-lg border w-72 bg-gray-100">
                 <div class="flew justify-center items-center overflow-hidden w-full h-52">
                   <img class="w-56 p-5 m-auto" src={item.image} alt="" />
                 </div>
                 <div class="absolute top-0 m-2 rounded-full bg-white">
-                  <p class="rounded-full bg-black text-[8px] font-bold uppercase tracking-wide text-white sm:py-1 sm:px-3">Sale</p>
+                  <p class="rounded-full bg-black p-1 px-2 text-[8px] font-bold uppercase tracking-wide text-white sm:py-1 sm:px-3">Sale</p>
                 </div>
                 <div class="my-4 mx-auto flex w-10/12 flex-col items-start justify-between">
                   <div class="mb-2 flex items-center">

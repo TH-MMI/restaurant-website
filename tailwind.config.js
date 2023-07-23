@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors : {
+        cardBg : '#eaeaea'
+      },
       fontFamily: {
         libre: ['"Lugrasimo"', ...defaultTheme.fontFamily.sans],
         quote: ['"Pacifico"', ...defaultTheme.fontFamily.sans]
