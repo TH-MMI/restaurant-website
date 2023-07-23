@@ -29,21 +29,21 @@ const Cart = ({ statu, childClick }) => {
                     <div className='flex flex-col gap-5'>
                         {
                             products.map((item, index) => (
-                                <div className="flex justify-between items-center bg-slate-100 p-3 ">
-                                    <div className="flex items-center gap-5 w-[100%] relative">
-                                        <img className="w-[20%]" src={item.product.image} alt="" />
+                                <div className="flex justify-between items-center bg-slate-100 p-3 h-28">
+                                    <div className="flex items-center gap-5 w-[100%] relative h-full">
+                                        <img className="w-16 md:w-20" src={item.product.image} alt="" />
                                         <div className='flex flex-col justify-between h-full gap-4'>
-                                            <div className="flex absolute bottom-4 w-36">
-                                                <p className=" tracking-wide font-bold">$ {item.product.totalPrice.toFixed(2)}</p>
+                                            <div className="flex items-center absolute bottom-4 w-36">
+                                                <p className=" tracking-wide font-bold text-xs sm:text-sm md-text-lg">$ {item.product.totalPrice.toFixed(2)}</p>
                                                 <div className='flex gap-2 items-center absolute right-0'>
-                                                    <button onClick={() => { dispatch(Counter(item.product.id)) }}><FontAwesomeIcon className='text-black text-xs cursor-pointer' icon={faPlus} /></button>
-                                                    <p className='text-gray-500 w-10 text-center border-solid border-gray-400 border-2 rounded-md'>x {item.product.quantity}</p>
-                                                    <button onClick={() => { dispatch(Decriment(item.product.id)) }}> <FontAwesomeIcon className='text-black  text-xs cursor-pointer' icon={faMinus} /></button>
+                                                    <button onClick={() => { dispatch(Counter(item.product.id)) }}><FontAwesomeIcon className='text-black cursor-pointer text-xs sm:text-sm md-text-lg' icon={faPlus} /></button>
+                                                    <p className='text-gray-500 w-10 text-center border-solid border-gray-400 border-2 rounded-md text-xs sm:text-sm md-text-lg'>x {item.product.quantity}</p>
+                                                    <button onClick={() => { dispatch(Decriment(item.product.id)) }}> <FontAwesomeIcon className='text-black cursor-pointer text-xs sm:text-sm md-text-lg' icon={faMinus} /></button>
 
                                                 </div>
                                             </div>
 
-                                            <p className="absolute top-4 ">{item.product.title}</p>
+                                            <p className="absolute top-4 text-sm sm:text-md">{item.product.title}</p>
 
                                         </div>
                                     </div>
