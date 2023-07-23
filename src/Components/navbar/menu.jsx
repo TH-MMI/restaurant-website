@@ -16,16 +16,16 @@ const Menu = ({ statu, childClick }) => {
 
                     <div className='flex flex-col'>
 
-                        <a href='' className="flex justify-center items-center  p-3 font-semibold border-solid hover:bg-slate-100 h-20">
+                        <a href='#' className="flex justify-center items-center  p-3 font-semibold border-solid hover:bg-slate-100 h-20">
                             <h1>Home</h1>
                         </a>
-                        <a href='' className="flex justify-center items-center  p-3 font-semibold border-solid hover:bg-slate-100 h-20">
+                        <a href='#' className="flex justify-center items-center  p-3 font-semibold border-solid hover:bg-slate-100 h-20">
                             <h1>Menu</h1>
                         </a>
-                        <a href='' className="flex justify-center items-center  p-3 font-semibold border-solid hover:bg-slate-100 h-20">
+                        <a href='#' className="flex justify-center items-center  p-3 font-semibold border-solid hover:bg-slate-100 h-20">
                             <h1>Reservation</h1>
                         </a>
-                        <a href='' className="flex justify-center items-center  p-3 font-semibold  h-20 hover:bg-slate-100">
+                        <a href='#' className="flex justify-center items-center  p-3 font-semibold  h-20 hover:bg-slate-100">
                             <h1>Contact Us</h1>
                         </a>
 
