@@ -4,8 +4,8 @@ const Footer = () => {
    
 
     return (
-        <div className="w-full p-10 ">
-            <h1 className='w-full text-center text-2xl mb-10 font-bold'>LOGO</h1>
+        <div className="w-full p-10 bg-green-100">
+            <h1 className='w-full text-center text-2xl mb-10 font-bold font-quote'>BURCOS</h1>
             <div className="flex flex-col gap-5 items-center md:gap-20 md:flex-row md:justify-center">
                 <div>
                 <h1 className='w-full text-2xl  mb-2 font-semibold md:mb-5'>Contact informations</h1>

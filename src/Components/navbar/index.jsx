@@ -4,6 +4,8 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import { useEffect, useState } from 'react';
 import Cart from '../home/cart';
 import Menu from './menu';
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -45,15 +47,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={scrolled ? "flex justify-between items-center bg-slate-100  h-14 z-10 px-8 fixed w-full top-0 md:px-8 md:justify-around md:h-16 duration-200" : "flex justify-between items-center  bg-transparent h-14 z-10 px-8 fixed w-full top-0 md:px-8 md:justify-around md:h-20 duration-200"} >
+    <nav className={scrolled ? "flex justify-between items-center bg-slate-100  h-14 z-10 px-8 fixed w-full top-0 md:px-8 md:justify-around md:h-16 duration-200" : "flex justify-between items-center  bg-white h-14 z-10 px-8 fixed w-full top-0 md:px-8 md:justify-around md:h-20 duration-200"} >
       <div>
-        <h1 className="text-2xl font-bold text-emerald-500">LOGO</h1>
+        <h1 className="text-2xl font-bold text-emerald-500 font-quote">BURCOS</h1>
       </div>
       <div className="hidden md:flex space-x-8">
-        <a href="/">Home</a>
-        <a href="/">Reservation</a>
-        <a href="/">Menu</a>
-        <a href="/">Contact Me</a>
+        <Link to='/'>Home</Link>
+        <Link to='/menu'>Menu</Link>
+        <Link to='/reservation'>Reservation</Link>
+        <Link to='/findus'>Find Us</Link>
       </div>
       <div className='flex items-center hidden gap-5 md:flex'>
 
