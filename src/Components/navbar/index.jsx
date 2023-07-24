@@ -57,7 +57,7 @@ const Navbar = () => {
         <Link to='/reservation'>Reservation</Link>
         <Link to='/findus'>Find Us</Link>
       </div>
-      <div className='flex items-center hidden gap-5 md:flex'>
+      <div className=' items-center hidden gap-5 md:flex'>
 
         <button className=" bg-emerald-500 text-white h-10 w-28 rounded-md font-semibold tracking-wider">
           Join US
