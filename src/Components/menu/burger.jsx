@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+
 import useMobileDetect from "../../isMobile";
 const Burger = () => {
     const isMobile = useMobileDetect()

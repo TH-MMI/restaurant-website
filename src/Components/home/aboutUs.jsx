@@ -1,4 +1,4 @@
-import c2 from '../../images/aboutUs/c2.png'
+
 const AboutUs = () => {
     return (
         <div className="w-full p-10 ">

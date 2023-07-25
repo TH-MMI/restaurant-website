@@ -1,4 +1,4 @@
-import header from '../../images/aboutUs/c3.png'
+
 
 const Header = ({title , title2 , image}) => {
     return (
