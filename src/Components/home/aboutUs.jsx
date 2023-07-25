@@ -14,7 +14,7 @@ const AboutUs = () => {
                     inviting atmosphere where you can relax, savor, and enjoy. Come join us for an unforgettable dining experience.
                 </p>
             </div>
-            <img className='w-[60vh] h-[20vh] rounded-md md:w-[60vh] md:h-[55vh] md:block object-cover md:rounded-none' src="https://images.unsplash.com/photo-1622021142947-da7dedc7c39a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGtpdGNoZW58ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" />
+            <img className='w-[60vh] h-[30vh] rounded-md md:w-[60vh] md:h-[55vh] md:block object-cover md:rounded-none' src="https://images.unsplash.com/photo-1622021142947-da7dedc7c39a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGtpdGNoZW58ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" />
             </div>
 
         </div>
